@@ -13,7 +13,6 @@
 		C978EF0B2C4008FC00EE5AAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C978EF0A2C4008FC00EE5AAA /* Preview Assets.xcassets */; };
 		C978EF712C41933700EE5AAA /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C978EF702C41933700EE5AAA /* KeyboardViewController.swift */; };
 		C978EF752C41933700EE5AAA /* CleverTypeKeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C978EF6E2C41933700EE5AAA /* CleverTypeKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C978EF7B2C41962600EE5AAA /* CustomKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C978EF7A2C41962600EE5AAA /* CustomKeyboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +40,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C95827BA2C5503020005202A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C978EF002C4008FB00EE5AAA /* Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C978EF032C4008FB00EE5AAA /* PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundApp.swift; sourceTree = "<group>"; };
 		C978EF052C4008FB00EE5AAA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -49,7 +49,6 @@
 		C978EF6E2C41933700EE5AAA /* CleverTypeKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CleverTypeKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C978EF702C41933700EE5AAA /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		C978EF722C41933700EE5AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C978EF7A2C41962600EE5AAA /* CustomKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +90,7 @@
 		C978EF022C4008FB00EE5AAA /* Playground */ = {
 			isa = PBXGroup;
 			children = (
+				C95827BA2C5503020005202A /* Info.plist */,
 				C978EF4B2C4131B200EE5AAA /* Others */,
 				C978EF482C41318F00EE5AAA /* Views */,
 				C978EF092C4008FC00EE5AAA /* Preview Content */,
@@ -128,7 +128,6 @@
 			children = (
 				C978EF702C41933700EE5AAA /* KeyboardViewController.swift */,
 				C978EF722C41933700EE5AAA /* Info.plist */,
-				C978EF7A2C41962600EE5AAA /* CustomKeyboardView.swift */,
 			);
 			path = CleverTypeKeyboard;
 			sourceTree = "<group>";
@@ -247,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C978EF7B2C41962600EE5AAA /* CustomKeyboardView.swift in Sources */,
 				C978EF712C41933700EE5AAA /* KeyboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +386,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Playground/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Playground/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -421,6 +420,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Playground/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Playground/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
